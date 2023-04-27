@@ -47,3 +47,43 @@
 
 
 }
+.banner{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 1072px;
+    height: 723.3px;
+    margin-left: 206px;
+    margin-top: 939px;
+}
+.banner-details{
+    width: 416px;
+    height: 400px;
+    margin-left: 87px;
+    margin-top: 369px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+
+}
+.banner-description{
+    height: 104px;
+    margin-top: 24px;
+    /* top: 1296px; */
+    font-weight: 400px;
+    line-height: 26px;
+    color: #444343;
+}
+.banner ul{
+    list-style: none;
+    color: #444343;
+    margin: auto;
+}
+
+.banner ul li:before{
+    content: '✓';
+    color: green;
+}
