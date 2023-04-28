@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: 'Work Sans'  sans-serif ;
+    font-family: 'Work Sans', sans-serif;
 }
 .header{
     background-image: url(/images/banner/banner2.png);
@@ -54,7 +54,7 @@
     width: 1072px;
     height: 723.3px;
     margin-left: 206px;
-    margin-top: 939px;
+    margin-top: 130px;
 }
 .banner-details{
     width: 416px;
@@ -70,7 +70,6 @@
 
 }
 .banner-description{
-    height: 104px;
     margin-top: 24px;
     /* top: 1296px; */
     font-weight: 400px;
@@ -80,10 +79,15 @@
 .banner ul{
     list-style: none;
     color: #444343;
-    margin: auto;
+    padding-left: 0;
 }
 
 .banner ul li:before{
     content: '✓';
     color: green;
+}
+.my-plans{
+    margin: 130px, 230px;
+    width: 1141px;
+    height: 299.96px;
 }
