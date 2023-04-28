@@ -87,7 +87,35 @@
     color: green;
 }
 .my-plans{
-    margin: 130px, 230px;
+    align-items: center;
     width: 1141px;
     height: 299.96px;
+    margin: 983px 230px 125px;
+}
+.section-title{
+    font-weight: 700px;
+    font-size: 40px;
+    margin-left: 500px;
+}
+.skills-container{
+    display: flex;
+    gap: 150px;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+.web-dev{
+    margin-left: 45px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.skill-description{
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #737272;
+
 }
